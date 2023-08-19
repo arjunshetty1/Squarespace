@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PP mori';
+    color: white;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+img{
+    height: 60px;
+}
+
+.nav_2{
+    display: flex;
+    gap: 25px;
+    text-transform: uppercase;
+}
+
+.nav_3{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 20px;
+}
+
+nav h4{
+    text-transform: uppercase;
+}
+
+nav button{
+    background-color:white;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
