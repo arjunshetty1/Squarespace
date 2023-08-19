@@ -20,7 +20,7 @@ body,html{
 nav{
     height: 60px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,3 +57,66 @@ nav button{
     font-size: 14px;
 }
 
+.main h1{
+    font-size: 130px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 165px;
+    z-index: 1;
+    position: relative;
+}
+
+.main h1 span{
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 20px 40px;
+    margin-inline: 30px;
+    line-height: 30px !important;
+}
+
+.main h1:nth-child(2){
+    /* color: red; */
+    margin-top: 60px;
+}
+ 
+
+#img1{
+    height: 230px;
+    position: absolute;
+    top: 19%;
+    border-radius: 20px;
+    left: 2%;
+}
+
+#img2{
+    height: 230px;
+    position: absolute;
+    bottom: 14%;
+    border-radius: 20px;
+    right: 2%;
+}
+
+#img3{
+    height: 230px;
+    width: 300px;
+    position: absolute;
+    bottom: 10%;
+    border-radius: 20px;
+    left: 18%;
+    
+}
+
+#img4{
+    height: 230px;
+    width: 500px;
+    position: absolute;
+    bottom: 50%;
+    border-radius: 20px;
+    left: 48%;
+    
+}
