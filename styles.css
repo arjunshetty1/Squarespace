@@ -10,6 +10,11 @@ body,html{
     width: 100%;
 }
 
+@font-face {
+    font-family: PP mori;
+    src: url(./ppmori.ttf);
+}
+
 .main{
     height: 100%;
     width: 100%;
